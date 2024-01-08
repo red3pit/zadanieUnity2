@@ -1,10 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class ValueManipulation : MonoBehaviour
 {
     public List<DataObject> DataObjects;
+    public TextMeshProUGUI scoreText;
 
     public void Manipulate()
     {
